@@ -1,0 +1,6 @@
+{
+  "name": "Luxelegacy - Handmade with Love",
+  "description": "Artisan handmade gifts, decor, and unique treasures crafted with love, featuring WhatsApp ordering and custom requests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

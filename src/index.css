@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cream: #fffaf3;
+    --brown: #674832;
+    --gold: #c49a55;
+    --gold-light: #dfba78;
+    --light: #f5eadc;
+    --light-border: #eee0cf;
+    --text: #3c3028;
+    --text-muted: #796858;
+  }
+
+  body {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    background-color: var(--cream);
+    color: var(--text);
+  }
+
+  /* For UI controls, badges, inputs and buttons where sans-serif increases crispness */
+  .font-sans-ui {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar for cart and modals */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5eadc;
+}
+::-webkit-scrollbar-thumb {
+  background: #c49a55;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #674832;
+}
